@@ -24,10 +24,6 @@ combination n m
        | otherwise = div (factorial n) ((factorial m)*(factorial (n-m))) where
             factorial x = foldl (*) 1 [1..x]
 
--- просто балуюсь с гитом
--- ещё балуюсь
--- jkfnkednsfkjdng
---kfldknvkdfjvn
             
 -- combination:: Integer -> Integer -> Integer
 -- combination 0 0 = 0
